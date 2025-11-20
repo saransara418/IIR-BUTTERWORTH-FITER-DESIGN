@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (LPF): 
+````
 clc ;
 close ;
 wp=input('Enter the pass band frequency (Radians )= ' );
@@ -44,9 +45,10 @@ plot(w/%pi,abs(HW));
 xlabel(' Normalized Digital Frequency w');
 ylabel('Magnitude ');
 title(' Frequency Response of Butterworth IIR LPF');
-
+````
 
 ## PROGRAM (HPF): 
+````
 
 clc;
 clear;
@@ -87,7 +89,7 @@ xlabel('Normalized Digital Frequency (×π rad/sample)');
 ylabel('Magnitude');
 title('Frequency Response of Butterworth IIR High-pass Filter');
 xgrid();
-
+````
 ## OUTPUT (LPF) : 
 ![WhatsApp Image 2025-11-21 at 00 12 57_c7ce4208](https://github.com/user-attachments/assets/013863f9-cfcf-4eb5-ab7b-fe122a846d1a)
 
